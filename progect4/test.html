@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="./assets/imgs/large-logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/imgs/large-logo.png">
+    <!-- font icon css file -->
+    <link rel="stylesheet" href="./assets/vendor/fontIcon/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- aos css file -->
+    <link rel="stylesheet" href="./assets/vendor/AOS/aos.css">
+    <!-- bootstrap css file  -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/bootstrap.min.css">
+    <!-- main css file  -->
+    <link rel="stylesheet" href="./assets/CSS/main.css">
+    
+
+    <title>test</title>
+
+</head>
+<body class="container" dir="rtl">
+  
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal1111
+</button>
+
+<!-- Modal -->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"> التسجيل في الندوة</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="display: inline-block;margin-right: 60%;"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-s-6 col-md-6">
+            <div class="images w-100">
+              <div class="myText">
+                من فضلك قم بإدخال البيانات المطلوبة منك وسوف يتم إرسال تفاصيل الندوة لك وموعدها علي بريدك الإلكتروني ورقم تذكرة الحضور الخاصة بك
+              </div>
+              <div class="myForm mt-4" style="height: 50%;">
+                <form>
+                  <div class="mb-3" dir="ltr">
+                    <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                  </div>
+                  <div class="mb-3" dir="ltr">
+                    <!-- <label for="exampleInputPassword1" class="form-label">Password</label> -->
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+                  </div>
+                  <div div class="mb-3" dir="ltr">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+
+                  </div>
+                  <button type="button" class="btn btn-warning"  data-bs-dismiss="modal"  data-bs-toggle="modal" data-bs-target="#staticBackdrop2">تسجيل الدخول</button>
+                </form>
+              </div>
+              <!-- <img src="./assets/imgs/signInModel.png" alt="" style="width: 100%;"> -->
+            </div>
+          </div>
+          <div class="col-s-12 col-md-6">
+            <div class="images w-100">
+
+              <img src="./assets/imgs/signInModel.png" alt="" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel2">Modal title2</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+      <div class="modal-body">
+        <div class="slowme" style="overflow: hidden;">
+          <img src="./assets/imgs/check.gif" alt="" style="width: 90%;margin-left: 10%;">
+        </div>
+        <div class="myText container text-center" style="transform: translateY(-30%);">
+          <p style="font-size: 30px;">تم التسجيل بنجاح</p>
+          <p style="font-size: 20px;">من فضلك قم بمراجعة البريد الوارد لديك علي بريدك الإلكتروني الخاص بك لمعرفة التفاصيل الخاصة بالندوة وتذكرة الحضور والميعاد</p>
+          <button class="btn btn-warning m-2 p-2" style="border-radius: 5px;" data-bs-dismiss="modal" aria-label="Close">حسنا,فهمت</button>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <!-- jquery js file -->
+    <script src="./assets/vendor/jQuery/jquery-3.7.1.min.js"></script>
+    <!-- aos js file -->
+    <script src="./assets/vendor/AOS/aos.js"></script>
+    <!-- bootstrap js file -->
+    <script src="./assets/vendor/bootstrap/bootstrap.js"></script>
+    <!-- main js file  -->
+    <script src="./assets/JS/main.js"></script>
+</body>
+</html>
